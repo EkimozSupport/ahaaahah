@@ -1,4 +1,4 @@
-<h1 align="centre">GoodVibes MusicBot v4.0</h1>
+<h1 align="centre">GoodVibes MusicBot v5.0</h1>
 
 ### Telegram Grubu ve Kanal Sesli Sohbetlerinde müzik çalabilen bir bot
 
