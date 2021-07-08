@@ -22,8 +22,8 @@ Heroku'ya konuşlandırmaya tıklamadan önce, hemen altındaki çatal ve yıld�
     <img src="https://img.shields.io/github/forks/matesa/GoodVibesMusicV2?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/LushaiMusic/GroupMusicBot">
-    <img src="https://img.shields.io/github/stars/LushaiMusic/VCsMusicBot?style=social">
+  <a href="https://github.com/matesa/GoodVibesMusicV2">
+    <img src="https://img.shields.io/github/stars/matesa/GoodVibesMusicV2?style=social">
   </a>
 </p>
 
