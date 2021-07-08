@@ -1,0 +1,78 @@
+{
+  "name": "GoodVibeesBot",
+  "logo": "https://telegra.ph/file/810ec0867be11dd1ed348.png",
+  "description": "Telegram'ınızın Grup Sesli Sohbetinde şarkı çalmak için Açık Kaynak bot. PyTgCalls tarafından desteklenmektedir.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/matesa/GoodVibesMusicV2",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram oturum dizisi",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "@BotFather'dan bir bot jetonu",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "@ olmadan, bot kullanıcı adı",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "MusicPlayer Bot Adınız.",
+      "required": false,
+      "value": ""
+    },
+    "SUPPORT_GROUP": {
+      "description": "@ olmadan MusicPlayer destek grubunuz [Eğer yoksa bunu bırakın]",
+      "required": false,
+      "value": "tgVCSets"
+    },
+    "PROJECT_NAME": {
+      "description": "MusicPlayer projenizin Adı.",
+      "required": false,
+      "value": "GoodVibeesBot"
+    },
+    "ASSISTANT_NAME": {
+      "description": "MusicPlayer'ınızın asistanı @ olmadan kullanıcı adı.",
+      "required": true
+    },
+    "ARQ_API_KEY": {
+      "description": "@ARQRobot' tan alın.",
+      "required": false,
+      "value": "GUGFNB-XPUZDX-XGCKTJ-UZXHBZ-ARQ"
+    },    
+    "BG_IMAGE": {
+      "description": "Botun BG görüntüsü (Şeffaf olanı kullanın) [IGNORE].",
+      "required": false,
+      "value": "https://telegra.ph/file/810ec0867be11dd1ed348.png"
+    },     
+    "UPDATES_CHANNEL": {
+      "description": "Kanalı @ olmadan günceller [Eğer yoksa bunu bırakın].",
+      "required": false,
+      "value": "Poyraz2103"
+    },    
+    "API_ID": {
+      "description": "my.telegram.org/apps adresinden Uygulama Kimliği",
+      "required": true
+    },
+    "PMPERMIT": {
+      "description": "Kapatmak için değiştir",
+      "required": false,
+      "value": "ENABLE"
+    },    
+    "API_HASH": {
+      "description": "my.telegram.org/apps adresinden uygulama karması",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "Her yerde yönetici olarak sayılan kullanıcı kimliklerinin listesi (boşlukla ayrılmış).",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "İndirmeler için maksimum ses süresi sınırı (dakika).",
+      "required": true,
+      "value": "10"
+    }
+  }
+}
